@@ -1,0 +1,332 @@
+#controls body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls {
+  font-family: Arial, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+#controls h2 {
+  text-align: center;
+  color: #DB7859;
+}
+
+#controls table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#controls th, #controls td {
+  border: 1px solid #DB7859;
+  padding: 8px;
+  text-align: left;
+}
+
+#controls tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#controls button {
+  background-color: #DB7859;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+#controls button:hover {
+  background-color: #DB7859;
+}
+
+#controls form {
+  display: flex;
+  flex-direction: column;
+}
+
+#controls label {
+  margin-bottom: 0.5em;
+  color: #DB7859;
+  display: block;
+}
+
+#controls input {
+  padding: 0.5em;
+  color: #333;
+  border: 3px solid #DB7859;
+  border-radius: 3px;
+  margin-bottom: 0.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#controls button[type="submit"] {
+  background: #DB7859;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+#controls button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+
+
+
+#controls4 #controlnav button {
+    background-color: #DB7859;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #controls4 #controlnav button:hover {
+    background-color: #DB7859;
+  }
+  #buttonsshow {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#clockinclockout{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#controls2, #controls3 {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+  }
+  
+  #controls2 h2, #controls3 h2 {
+    text-align: center;
+    color: #DB7859;
+  }
+  
+  #controls2 table, #controls3 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color:  #DB7859;
+  }
+  
+  #controls2 th, #controls2 td, #controls3 th, #controls3 td {
+    border: 1px solid #DB7859;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #controls2 tr:nth-child(even), #controls3 tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #controls2 button, #controls3 button {
+    background-color: #DB7859;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #controls2 button:hover, #controls3 button:hover {
+    background-color: #DB7859;
+  }
+  
+  #controls2 form, #controls3 form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #controls2 label, #controls3 label {
+    margin-bottom: 0.5em;
+    color: #DB7859;
+    display: block;
+  }
+  
+  #controls2 input, #controls3 input {
+    padding: 0.5em;
+    color: #DB7859;
+    border: 3px solid #DB7859;
+    border-radius: 3px;
+    margin-bottom: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #controls2 button[type="submit"], #controls3 button[type="submit"] {
+    background: #DB7859;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    margin-top: 1em;
+  }
+  
+  #controls2 button[type="submit"]:hover, #controls3 button[type="submit"]:hover {
+    background: #DB7859;
+  }
+
+
+
+  .parent-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+
+
+
+
+
+  #controls4{
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    color:  #DB7859;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ReactModal__Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(65%, -5%);
+    border: 1px solid #DB7859;
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    height: 85%;
+  }
+  
+  .ReactModal__Content form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ReactModal__Content label {
+    margin-bottom: 10px;
+  }
+  
+  .ReactModal__Content input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .ReactModal__Content button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #DB7859;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .ReactModal__Content button:hover {
+    background-color: #f14a17;
+  }
+
+
+
+  #calendar-container {
+    width: 80%; /* Adjust this to change the width of the calendar */
+    margin: 0 auto; /* This will center the calendar */
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15); /* This adds a subtle shadow to give a "floating" effect */
+    background-color: white; /* This is the background color of the calendar */
+  }
+  
+  .fc-theme-standard td, .fc-theme-standard th {
+    border-color: #ddd; /* This changes the color of the borders between the days */
+  }
+  
+  .fc-theme-standard .fc-event {
+    background-color: #1a73e8; /* This changes the background color of the events */
+    color: white; /* This changes the text color of the events */
+  }
+  
+  .fc-theme-standard .fc-button {
+    background-color: #1a73e8; /* This changes the background color of the buttons */
+    color: white; /* This changes the text color of the buttons */
+  }
+
+
+  #annoucmentform{
+    display:flex;
+    flex-direction: column;
+  }

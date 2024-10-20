@@ -1,0 +1,70 @@
+.game-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 600px; 
+    width: 80%;
+    margin: auto; 
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .game-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    width: 94%;
+    margin: auto; 
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+.game-tabs {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #DB7859;
+    color: white;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+  }
+  
+  .game-tab.active {
+    background: #DB7859;
+    color: white;
+  }
+  
+  .game-container {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+  display: none;
+}
+
+body {
+    background-color: #F7F3EB;
+}
+
+.title {
+    color: #DB7859;
+}

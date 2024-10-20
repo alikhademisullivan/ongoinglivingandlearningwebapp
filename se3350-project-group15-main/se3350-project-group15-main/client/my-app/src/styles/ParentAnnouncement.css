@@ -1,0 +1,43 @@
+.announcement-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust alignment as needed */
+  }
+  
+  .announcement-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(20% - 20px); /* Calculate width to achieve 5 items per row */
+  }
+  
+  .announcement-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .announcement-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .announcement-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .announcement-date {
+    color: #888;
+  }
+  
+  .announcement-description {
+    margin-top: 10px;
+  }
+  
